@@ -151,7 +151,7 @@ Watcher Procmon은 eBPF(Extended Berkeley Packet Filter)를 사용하여 리눅�
 
 ## 6. 개발 가이드 
 
-### 유저랜드(Python)
+### 유저공간(Python)
 
 `app/` 디렉토리 내의 주요 컴포넌트들은 다음과 같습니다:
 
@@ -170,7 +170,7 @@ Watcher Procmon은 eBPF(Extended Berkeley Packet Filter)를 사용하여 리눅�
     -   `student_info.py`: 학생 정보 데이터 구조.
 
 
-### 커널랜드(eBPF)
+### 커널공간(eBPF)
 
 eBPF 개발을 시작하기 전, ChatGPT 또는 공식 문서 등을 통해 eBPF의 **제약 사항**을 확인하세요. 스택 크기 제한과 Verifier의 검증을 통과하기 위해 몇가지 트릭들이 사용됩니다.
 

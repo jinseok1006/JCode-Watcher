@@ -484,15 +484,3 @@ sudo chown -R $USER:$USER /home/ubuntu/jcode/
 sudo chmod 755 snapshots/
 sudo chown -R $USER:$USER snapshots/
 ```
-
-### 자주 묻는 질문 (FAQ)
-
-**Q: 여러 학생이 동시에 사용할 수 있나요?**
-A: 네, `class-분반-학번` 형태로 구분하여 여러 학생의 파일을 동시에 감시할 수 있습니다.
-
-**Q: 스냅샷 저장 용량 제한이 있나요?**
-A: 별도 제한은 없지만, 호스트 시스템의 디스크 용량에 따라 제한됩니다.
-
-**Q: 백엔드 없이도 사용할 수 있나요?**
-A: 네, 백엔드 API 연결이 실패해도 로컬 스냅샷 생성은 정상적으로 동작합니다. filemon자체의 개발은 backend 연동없이도 수행 가능합니다.
-
